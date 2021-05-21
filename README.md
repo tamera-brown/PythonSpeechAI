@@ -11,7 +11,6 @@ pip install playsound
 pip install PyObjC
 pip install wikipedia
 ```
-```
 
 ### Voice Commands
 
