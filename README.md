@@ -9,6 +9,7 @@ Python app that uses speech recognition and google text-to-speech
  ### Activate Virtual Environment 
  ```
  source venv/bin/activate
+ ```
 
 ### Dependencies
 
