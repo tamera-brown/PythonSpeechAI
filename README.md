@@ -15,7 +15,6 @@ Python app that uses speech recognition and google text-to-speech
 
 ```
 pip install speechrecognition
-pip install 
 pip install gTTs
 pip install pyaudio
 pip install playsound
