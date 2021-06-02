@@ -9,6 +9,7 @@ import requests
 import math
 import wikipedia
 from gtts import gTTS
+from config import api_key
 
 
 
@@ -79,7 +80,6 @@ def respond(voice_data):
 
     if "what's the weather" in voice_data:
         base_url="https://api.openweathermap.org/data/2.5/weather?"
-        api_key="daa1bb6563c9cd0fc44fdd52043bf959"
         city=record_audio('for what city')
         url=base_url + 'q=' + city + '&units=imperial&appid=' + api_key
         response=requests.get(url)
